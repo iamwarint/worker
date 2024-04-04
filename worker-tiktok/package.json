@@ -1,0 +1,17 @@
+{
+  "name": "worker-tiktok",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "types-cloudflare-worker": "^1.2.0"
+  }
+}
